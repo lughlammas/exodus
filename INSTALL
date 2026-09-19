@@ -1,0 +1,15 @@
+Installing Êxodus
+=================
+
+APK
+---
+Download Exodus.apk from GitHub Releases and install on Android
+(allow unknown sources if prompted).
+
+From source
+-----------
+    # JDK 17 + Android SDK
+    ./gradlew assembleDebug
+
+APK output: app/build/outputs/apk/debug/app-debug.apk
+Create local.properties with sdk.dir=... (not committed).
