@@ -1,0 +1,11 @@
+.gradle/
+build/
+**/build/
+local.properties
+local.properties.windows
+*.iml
+.idea/
+.kotlin/
+captures/
+.DS_Store
+Exodus.apk

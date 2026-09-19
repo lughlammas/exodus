@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_up" android:title="@string/action_up" app:showAsAction="ifRoom" android:icon="@drawable/ic_up" />
+    <item android:id="@+id/action_refresh" android:title="@string/action_refresh" app:showAsAction="never" />
+    <item android:id="@+id/action_mkdir" android:title="@string/action_mkdir" app:showAsAction="never" />
+    <item android:id="@+id/action_zip" android:title="@string/action_zip" app:showAsAction="never" />
+    <item android:id="@+id/action_copy_path" android:title="@string/action_copy_path" app:showAsAction="never" />
+    <item android:id="@+id/action_goto_download" android:title="@string/action_goto_download" app:showAsAction="never" />
+    <item android:id="@+id/action_goto_documents" android:title="@string/action_goto_documents" app:showAsAction="never" />
+    <item android:id="@+id/action_goto_storage" android:title="@string/action_goto_storage" app:showAsAction="never" />
+    <item android:id="@+id/action_permission" android:title="@string/action_permission" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about" app:showAsAction="never" />
+</menu>

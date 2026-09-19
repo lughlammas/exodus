@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Êxodus</string>
+    <string name="motto">Todos são ciganos: caminham de um lugar ao outro com bom comando e boa direção.</string>
+    <string name="motto_en">Everyone is a traveler. You can walk from place to place with good command and good direction.</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_libre">Software livre (MIT). Sem anúncios, sem rastreadores, sem lock-in.</string>
+    <string name="action_up">Pasta acima</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_mkdir">Nova pasta</string>
+    <string name="action_zip">Zipar pasta</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_copy_path">Copiar caminho</string>
+    <string name="action_rename">Renomear</string>
+    <string name="action_delete">Apagar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_about">Sobre</string>
+    <string name="action_goto_download">Download</string>
+    <string name="action_goto_documents">Documents</string>
+    <string name="action_goto_storage">Armazenamento</string>
+    <string name="action_permission">Permitir arquivos</string>
+    <string name="confirm_delete">Apagar \"%1$s\"?</string>
+    <string name="confirm_delete_title">Confirmar exclusão</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="name_hint">Nome</string>
+    <string name="mkdir_title">Nova pasta</string>
+    <string name="rename_title">Renomear</string>
+    <string name="zip_title">Zipar pasta</string>
+    <string name="zip_dest_parent">Salvar na pasta pai</string>
+    <string name="zip_dest_download">Salvar em Download</string>
+    <string name="zipping">Zipando…</string>
+    <string name="zip_done">ZIP criado: %1$s</string>
+    <string name="zip_fail">Falha ao zipar: %1$s</string>
+    <string name="path_copied">Caminho copiado</string>
+    <string name="need_permission">Êxodus precisa de acesso a todos os arquivos para navegar e zipar pastas.</string>
+    <string name="empty_folder">(pasta vazia)</string>
+    <string name="folder">Pasta</string>
+    <string name="error_open">Não foi possível abrir</string>
+    <string name="select_folder_first">Selecione ou entre em uma pasta</string>
+    <string name="version_fmt">Versão %1$s</string>
+</resources>

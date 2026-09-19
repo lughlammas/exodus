@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="exodus_bg">#FF121212</color>
+    <color name="exodus_surface">#FF1E1E1E</color>
+    <color name="exodus_primary">#FF80CBC4</color>
+    <color name="exodus_on_primary">#FF00332E</color>
+    <color name="exodus_secondary">#FFFFB74D</color>
+    <color name="exodus_text">#FFE0E0E0</color>
+    <color name="exodus_muted">#FF9E9E9E</color>
+    <color name="exodus_danger">#FFEF5350</color>
+    <color name="ic_launcher_background">#FF1A2422</color>
+</resources>

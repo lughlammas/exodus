@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Exodus" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/exodus_primary</item>
+        <item name="colorOnPrimary">@color/exodus_on_primary</item>
+        <item name="colorSecondary">@color/exodus_secondary</item>
+        <item name="android:statusBarColor">@color/exodus_bg</item>
+        <item name="android:navigationBarColor">@color/exodus_bg</item>
+        <item name="android:windowBackground">@color/exodus_bg</item>
+        <item name="colorSurface">@color/exodus_surface</item>
+    </style>
+</resources>
