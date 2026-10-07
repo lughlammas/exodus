@@ -1,50 +1,38 @@
 # Êxodus
 
-**Software livre (MIT)** — gerenciador de arquivos Android simples: sem anúncios, sem rastreadores, sem lock-in.
+An open-source Android file manager for local file operations, ZIP creation, and system sharing, with no advertising.
 
-> Todos são ciganos: caminham de um lugar ao outro com bom comando e boa direção.
+**Stack:** Kotlin, Android Views/Material components, coroutines, Java file APIs, `ZipOutputStream`, and `FileProvider`.
 
-| | |
-|--|--|
-| **applicationId** | `com.lughlammas.exodus` |
-| **Nome** | Êxodus |
-| **Versão** | 1.0.0 |
-| **Licença** | MIT |
+**Status:** version 1.0.0; [APK release](https://github.com/lughlammas/exodus/releases/tag/v1.0.0) available. No automated test suite or CI workflow is included; build and device behavior were not retested during this documentation pass.
 
-## O que faz
+## File workflows
 
-1. Navegar pastas (Download, Documents, armazenamento amplo no Android 11+)
-2. Listar nome, tamanho e data
-3. Zipar uma pasta (saída limpa com `ZipOutputStream`)
-4. Compartilhar o ZIP pelo sistema
-5. Copiar caminho, criar pasta, renomear, apagar (com confirmação)
-6. Abrir arquivos com intents do sistema
-7. UI Material escura
+- Browse local folders and show names, sizes and modification dates.
+- Create folders, copy paths, rename and delete with confirmation.
+- Create a ZIP from a folder and share it through Android's system chooser.
+- Open files with system intents; use a dark Material interface.
 
-## Instalar (APK)
+Operations are local. The manifest requests storage access, including “All files access” on Android 11+, and does not request internet or location access. Available folders depend on Android storage permissions and platform restrictions.
 
-1. Baixe `Exodus.apk` na [Release](https://github.com/lughlammas/exodus/releases) mais recente.
-2. Permita instalar apps de fonte desconhecida, se o Android pedir.
-3. Abra o APK e confirme.
+## Install
 
-## Compilar
+Download `Exodus.apk` from [release v1.0.0](https://github.com/lughlammas/exodus/releases/tag/v1.0.0), open it, and allow installation from that source if Android prompts you. Grant storage access for the folders you intend to manage.
 
-JDK 17 + Android SDK (compileSdk 35).
+## Build
+
+Requires JDK 17 and Android SDK 35. Minimum Android API: 26.
 
 ```bash
 ./gradlew assembleDebug
 ```
 
-APK: `app/build/outputs/apk/debug/app-debug.apk`
+On Windows, use `gradlew.bat assembleDebug`. Configure the SDK path in a local, untracked `local.properties` file. Debug output: `app/build/outputs/apk/debug/app-debug.apk`.
 
-Crie `local.properties` com o caminho do SDK (não versionado).
+Application ID: `com.lughlammas.exodus`.
 
-## Permissões
+## Authorship and license
 
-- Armazenamento / “Todos os arquivos” (`MANAGE_EXTERNAL_STORAGE` no Android 11+) para listar e zipar fora do sandbox.
-- Sem internet, sem localização, sem anúncio.
+Originally attributed to Lab lughlammas — Guilherme / Gui; maintained by Guilherme Cavalcanti within **ARBOCK LABS**, an independent software and applied-AI lab currently being structured. Historical attribution is retained in [AUTHORS](AUTHORS).
 
-## Autor
-
-Lab **lughlammas** — Guilherme / Gui.  
-Portfolio: [lughlammas.github.io](https://lughlammas.github.io)
+[MIT license](LICENSE) · [Portfolio](https://lughlammas.github.io).
